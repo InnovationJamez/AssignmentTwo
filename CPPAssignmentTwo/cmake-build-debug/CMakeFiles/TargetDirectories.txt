@@ -1,0 +1,3 @@
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/cmake-build-debug/CMakeFiles/CPPAssignmentTwo.dir
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
