@@ -149,6 +149,60 @@ GrowingTree.cpp.s:
 	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/GrowingTree.cpp.s
 .PHONY : GrowingTree.cpp.s
 
+PrimAlgorithm.obj: PrimAlgorithm.cpp.obj
+
+.PHONY : PrimAlgorithm.obj
+
+# target to build an object file
+PrimAlgorithm.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.obj
+.PHONY : PrimAlgorithm.cpp.obj
+
+PrimAlgorithm.i: PrimAlgorithm.cpp.i
+
+.PHONY : PrimAlgorithm.i
+
+# target to preprocess a source file
+PrimAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.i
+.PHONY : PrimAlgorithm.cpp.i
+
+PrimAlgorithm.s: PrimAlgorithm.cpp.s
+
+.PHONY : PrimAlgorithm.s
+
+# target to generate assembly for a file
+PrimAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.s
+.PHONY : PrimAlgorithm.cpp.s
+
+RecursiveBacktrack.obj: RecursiveBacktrack.cpp.obj
+
+.PHONY : RecursiveBacktrack.obj
+
+# target to build an object file
+RecursiveBacktrack.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.obj
+.PHONY : RecursiveBacktrack.cpp.obj
+
+RecursiveBacktrack.i: RecursiveBacktrack.cpp.i
+
+.PHONY : RecursiveBacktrack.i
+
+# target to preprocess a source file
+RecursiveBacktrack.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.i
+.PHONY : RecursiveBacktrack.cpp.i
+
+RecursiveBacktrack.s: RecursiveBacktrack.cpp.s
+
+.PHONY : RecursiveBacktrack.s
+
+# target to generate assembly for a file
+RecursiveBacktrack.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.s
+.PHONY : RecursiveBacktrack.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +242,12 @@ help:
 	@echo ... GrowingTree.obj
 	@echo ... GrowingTree.i
 	@echo ... GrowingTree.s
+	@echo ... PrimAlgorithm.obj
+	@echo ... PrimAlgorithm.i
+	@echo ... PrimAlgorithm.s
+	@echo ... RecursiveBacktrack.obj
+	@echo ... RecursiveBacktrack.i
+	@echo ... RecursiveBacktrack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/RecursiveBacktrack.cpp">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/RecursiveBacktrack.h">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/cmake-build-debug/GrowingTree.cpp">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/cmake-build-debug/GrowingTree.h">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/cmake-build-debug/PrimAlgorithm.cpp">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/cmake-build-debug/PrimAlgorithm.h">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/cmake-build-debug/main.cpp">

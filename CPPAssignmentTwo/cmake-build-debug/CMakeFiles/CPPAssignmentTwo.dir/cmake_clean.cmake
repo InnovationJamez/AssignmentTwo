@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CPPAssignmentTwo.dir/main.cpp.obj"
   "CMakeFiles/CPPAssignmentTwo.dir/GrowingTree.cpp.obj"
+  "CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.obj"
+  "CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.obj"
   "CPPAssignmentTwo.pdb"
   "CPPAssignmentTwo.exe"
   "CPPAssignmentTwo.exe.manifest"

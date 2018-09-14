@@ -1,8 +1,7 @@
-#include <iostream>
 #include "GrowingTree.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    GrowingTree treeObj;
     return 0;
 }
 

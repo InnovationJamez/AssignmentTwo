@@ -1,0 +1,14 @@
+//
+// Created by lehoej on 9/14/2018.
+//
+
+#ifndef CPPASSIGNMENTTWO_PRIMALGORITHM_H
+#define CPPASSIGNMENTTWO_PRIMALGORITHM_H
+
+
+class PrimAlgorithm {
+
+};
+
+
+#endif //CPPASSIGNMENTTWO_PRIMALGORITHM_H
