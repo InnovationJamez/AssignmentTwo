@@ -3,4 +3,16 @@ project(CPPAssignmentTwo)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CPPAssignmentTwo main.cpp cmake-build-debug/growingTree.cpp cmake-build-debug/growingTree.h RecursiveBacktrack.cpp RecursiveBacktrack.h cmake-build-debug/PrimAlgorithm.cpp cmake-build-debug/PrimAlgorithm.h)
+set(CMAKE_BUILD_TYPE Debug)
+
+set(CMAKE_CXX_Flags "${CMAKE_CXX_FLAGS} -Wall -pedantic")
+
+add_executable(CPPAssignmentTwo
+        builder.cpp
+        GrowingTree.h
+        GrowingTree.cpp
+        PrimAlgorithm.h
+        PrimAlgorithm.cpp
+        RecersiveBacktrack.h
+        RecersiveBacktrack.cpp
+        )
