@@ -188,7 +188,7 @@ this->position = (*mapTree)[index];
 
 // add location to the map
 void GrowingTree::addLocation(){
-    mapTree[index] = {this->position.xPos,this->position.yPos};
+    (*mapTree)[index] = {this->position.xPos,this->position.yPos};
     this->index++;
 }
 
