@@ -3,3 +3,24 @@
 //
 
 #include "RecersiveBacktrack.h"
+
+// growing tree loop
+void RecersiveBacktrack::buildLoop(){
+    selectPiece();
+    carvePath();
+}
+
+// select newest piece from the map
+void RecersiveBacktrack::selectPiece(){
+
+}
+
+// adding location to the top of the map
+void RecersiveBacktrack::addLocation(){
+
+}
+
+// pop one location off the top of the stack
+void RecersiveBacktrack::backTrack(){
+
+}

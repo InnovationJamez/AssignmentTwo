@@ -29,10 +29,11 @@ struct coords{
 class GrowingTree {
 private:
     std::vector<std::vector<disposition>>* board = new std::vector<std::vector<disposition>>;
+    int width, height;
+protected:
     coords position;
+    int index, randNum;
     std::map<int,coords>* mapTree = new std::map<int, coords>;
-    int randNum, width, height, index;
-
 public:
 
     // generate random number
@@ -46,22 +47,17 @@ public:
 
     // set path functions set the direction of the path
     void storeNorth();
-
     void storeSouth();
-
     void storeEast();
-
     void storeWest();
 
     // move functions move in specified direction
-
     void moveNorth();
     void moveSouth();
     void moveEast();
     void moveWest();
 
     // check functions check the neighbors return result
-
     bool checkNorth();
     bool checkSouth();
     bool checkEast();
@@ -80,7 +76,7 @@ public:
     ~GrowingTree();
 
     // growing tree loop
-    void buildLoop();
+    virtual void buildLoop();
 
     // move in direction and carve path
     void carvePath();
@@ -88,7 +84,7 @@ public:
     // select newest piece from the map
     virtual void selectPiece();
 
-    // adding location to the top of tha stack
+    // adding location to the top of the map
     virtual void addLocation();
 
     // pop one location off the top of the stack

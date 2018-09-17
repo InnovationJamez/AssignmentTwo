@@ -11,7 +11,6 @@ GrowingTree::GrowingTree(int x, int y)
     fillBoard();
     setLocation();
     setVisited();
-    addLocation();
 }
 
 // de-constructor deallocate the memory taken up by the object
@@ -25,6 +24,7 @@ void GrowingTree::buildLoop() {
     while(~mapTree->empty()){
         selectPiece();
         carvePath();
+
     }
 }
 
