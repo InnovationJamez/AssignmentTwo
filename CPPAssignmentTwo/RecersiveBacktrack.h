@@ -8,11 +8,13 @@
 #include<stack>
 #include "GrowingTree.h"
 
-
-
 class RecersiveBacktrack: public GrowingTree {
 private:
+
 public:
+    // constructor
+    RecersiveBacktrack(int width, int height);
+
     // growing tree loop
     void buildLoop ()override;
 

@@ -5,7 +5,8 @@
 #include "PrimAlgorithm.h"
 
 // constructor
-PrimAlgorithm(){
+PrimAlgorithm::PrimAlgorithm(int width, int height) : GrowingTree(width,height)
+{
     addLocation();
 }
 

@@ -4,6 +4,11 @@
 
 #include "RecersiveBacktrack.h"
 
+//constructor
+RecersiveBacktrack::RecersiveBacktrack(int width, int height) : GrowingTree(width,height){
+    addLocation();
+}
+
 // growing tree loop
 void RecersiveBacktrack::buildLoop(){
     selectPiece();

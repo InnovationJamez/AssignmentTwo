@@ -12,7 +12,7 @@ class PrimAlgorithm: public GrowingTree {
 private:
 public:
     // constructor
-    PrimAlgorithm();
+    PrimAlgorithm(int width, int height);
     // select newest piece from the map
     void selectPiece()override;
 

@@ -4,9 +4,11 @@
 CMakeFiles/CPPAssignmentTwo.dir/GrowingTree.cpp.obj: ../GrowingTree.cpp
 CMakeFiles/CPPAssignmentTwo.dir/GrowingTree.cpp.obj: ../GrowingTree.h
 
+CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.obj: ../GrowingTree.h
 CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.obj: ../PrimAlgorithm.cpp
 CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.obj: ../PrimAlgorithm.h
 
+CMakeFiles/CPPAssignmentTwo.dir/RecersiveBacktrack.cpp.obj: ../GrowingTree.h
 CMakeFiles/CPPAssignmentTwo.dir/RecersiveBacktrack.cpp.obj: ../RecersiveBacktrack.cpp
 CMakeFiles/CPPAssignmentTwo.dir/RecersiveBacktrack.cpp.obj: ../RecersiveBacktrack.h
 
