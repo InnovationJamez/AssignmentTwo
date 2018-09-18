@@ -14,7 +14,7 @@ public:
     // constructor
     PrimAlgorithm(int width, int height);
     // select newest piece from the map
-    void selectPiece()override;
+    inline void selectPiece()override;
 
     // adding location to the top of the map
     void addLocation()override;

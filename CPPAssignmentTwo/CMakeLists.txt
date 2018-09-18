@@ -13,6 +13,6 @@ add_executable(CPPAssignmentTwo
         GrowingTree.cpp
         PrimAlgorithm.h
         PrimAlgorithm.cpp
-        RecersiveBacktrack.h
-        RecersiveBacktrack.cpp
+        RecursiveBacktrack.h
+        RecursiveBacktrack.cpp
         )

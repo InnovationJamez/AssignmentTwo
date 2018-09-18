@@ -8,24 +8,27 @@
 #include<stack>
 #include "GrowingTree.h"
 
-class RecersiveBacktrack: public GrowingTree {
+class RecursiveBacktrack: public GrowingTree {
 private:
-
+    std::stack<int,coords> mapStack;
 public:
     // constructor
-    RecersiveBacktrack(int width, int height);
+    RecursiveBacktrack(int width, int height);
 
     // growing tree loop
     void buildLoop ()override;
 
     // select newest piece from the map
-    void selectPiece()override;
+    inline void selectPiece()override;
 
     // adding location to the top of the map
     void addLocation()override;
 
     // pop one location off the top of the stack
     void backTrack()override;
+
+    // carve path
+    void carvePath() override;
 };
 
 

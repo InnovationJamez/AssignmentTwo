@@ -31,6 +31,37 @@ void PrimAlgorithm::backTrack(){
 
 // growing tree loop
 void PrimAlgorithm::buildLoop(){
-    selectPiece();
-    carvePath();
+    while(!mapTree->empty()){
+        selectPiece();
+        carvePath();
+    }
+}
+
+// carve path
+void GrowingTree::carvePath(){
+    DIRECTION choice = neighborChk();
+    switch(choice){
+        case NORTH:
+            moveNorth();
+            addLocation();
+            break;
+        case SOUTH:
+            moveSouth();
+            addLocation();
+            break;
+        case EAST:
+            moveEast();
+            addLocation();
+            break;
+        case WEST:
+            moveWest();
+            addLocation();
+            break;
+        case EMPTY:
+            backTrack();
+            break;
+        default:
+            std::cout << "there has been an error" << std::endl;
+            break;
+    }
 }

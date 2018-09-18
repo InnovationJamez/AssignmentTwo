@@ -176,32 +176,32 @@ PrimAlgorithm.cpp.s:
 	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.s
 .PHONY : PrimAlgorithm.cpp.s
 
-RecersiveBacktrack.obj: RecersiveBacktrack.cpp.obj
+RecursiveBacktrack.obj: RecursiveBacktrack.cpp.obj
 
-.PHONY : RecersiveBacktrack.obj
+.PHONY : RecursiveBacktrack.obj
 
 # target to build an object file
-RecersiveBacktrack.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecersiveBacktrack.cpp.obj
-.PHONY : RecersiveBacktrack.cpp.obj
+RecursiveBacktrack.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.obj
+.PHONY : RecursiveBacktrack.cpp.obj
 
-RecersiveBacktrack.i: RecersiveBacktrack.cpp.i
+RecursiveBacktrack.i: RecursiveBacktrack.cpp.i
 
-.PHONY : RecersiveBacktrack.i
+.PHONY : RecursiveBacktrack.i
 
 # target to preprocess a source file
-RecersiveBacktrack.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecersiveBacktrack.cpp.i
-.PHONY : RecersiveBacktrack.cpp.i
+RecursiveBacktrack.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.i
+.PHONY : RecursiveBacktrack.cpp.i
 
-RecersiveBacktrack.s: RecersiveBacktrack.cpp.s
+RecursiveBacktrack.s: RecursiveBacktrack.cpp.s
 
-.PHONY : RecersiveBacktrack.s
+.PHONY : RecursiveBacktrack.s
 
 # target to generate assembly for a file
-RecersiveBacktrack.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecersiveBacktrack.cpp.s
-.PHONY : RecersiveBacktrack.cpp.s
+RecursiveBacktrack.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.s
+.PHONY : RecursiveBacktrack.cpp.s
 
 builder.obj: builder.cpp.obj
 
@@ -245,9 +245,9 @@ help:
 	@echo ... PrimAlgorithm.obj
 	@echo ... PrimAlgorithm.i
 	@echo ... PrimAlgorithm.s
-	@echo ... RecersiveBacktrack.obj
-	@echo ... RecersiveBacktrack.i
-	@echo ... RecersiveBacktrack.s
+	@echo ... RecursiveBacktrack.obj
+	@echo ... RecursiveBacktrack.i
+	@echo ... RecursiveBacktrack.s
 	@echo ... builder.obj
 	@echo ... builder.i
 	@echo ... builder.s
