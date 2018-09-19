@@ -8,12 +8,12 @@ CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.obj: ../GrowingTree.h
 CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.obj: ../PrimAlgorithm.cpp
 CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.obj: ../PrimAlgorithm.h
 
-CMakeFiles/CPPAssignmentTwo.dir/RecersiveBacktrack.cpp.obj: ../GrowingTree.h
-CMakeFiles/CPPAssignmentTwo.dir/RecersiveBacktrack.cpp.obj: ../RecersiveBacktrack.cpp
-CMakeFiles/CPPAssignmentTwo.dir/RecersiveBacktrack.cpp.obj: ../RecersiveBacktrack.h
+CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.obj: ../GrowingTree.h
+CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.obj: ../RecursiveBacktrack.cpp
+CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.obj: ../RecursiveBacktrack.h
 
 CMakeFiles/CPPAssignmentTwo.dir/builder.cpp.obj: ../GrowingTree.h
 CMakeFiles/CPPAssignmentTwo.dir/builder.cpp.obj: ../PrimAlgorithm.h
-CMakeFiles/CPPAssignmentTwo.dir/builder.cpp.obj: ../RecersiveBacktrack.h
+CMakeFiles/CPPAssignmentTwo.dir/builder.cpp.obj: ../RecursiveBacktrack.h
 CMakeFiles/CPPAssignmentTwo.dir/builder.cpp.obj: ../builder.cpp
 

@@ -16,12 +16,12 @@ void RecursiveBacktrack::selectPiece(){
 
 // adding location to the top of the map
 void RecursiveBacktrack::addLocation(){
-    mapStack.push(position);
+    mapStack.push(this->position);
 }
 
 // pop one location off the top of the stack
 void RecursiveBacktrack::backTrack(){
-    mapStack.pop(position);
+    mapStack.pop();
 }
 
 // growing tree loop
@@ -29,5 +29,34 @@ void RecursiveBacktrack::buildLoop(){
     while(!mapStack.empty()){
         selectPiece();
         carvePath();
+    }
+}
+
+// carve path
+void RecursiveBacktrack::carvePath(){
+    DIRECTION choice = neighborChk();
+    switch(choice){
+        case NORTH:
+            moveNorth();
+            addLocation();
+            break;
+        case SOUTH:
+            moveSouth();
+            addLocation();
+            break;
+        case EAST:
+            moveEast();
+            addLocation();
+            break;
+        case WEST:
+            moveWest();
+            addLocation();
+            break;
+        case EMPTY:
+            backTrack();
+            break;
+        default:
+            std::cout << "there has been an error" << std::endl;
+            break;
     }
 }

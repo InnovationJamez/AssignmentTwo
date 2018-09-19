@@ -71,22 +71,22 @@ void GrowingTree::storeWest(){
 // move functions: move in specified direction
 void GrowingTree::moveNorth(){
     storeNorth();
-    position.yPos--;
+    this->position.yPos--;
     storeSouth();
 }
 void GrowingTree::moveSouth(){
     storeSouth();
-    position.yPos++;
+    this->position.yPos++;
     storeNorth();
 }
 void GrowingTree::moveEast(){
     storeEast();
-    position.xPos++;
+    this->position.xPos++;
     storeWest();
 }
 void GrowingTree::moveWest(){
     storeWest();
-    position.xPos--;
+    this->position.xPos--;
     storeEast();
 }
 

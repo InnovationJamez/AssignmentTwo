@@ -10,7 +10,7 @@
 
 class RecursiveBacktrack: public GrowingTree {
 private:
-    std::stack<int,coords> mapStack;
+    std::stack<coords> mapStack;
 public:
     // constructor
     RecursiveBacktrack(int width, int height);
@@ -28,7 +28,7 @@ public:
     void backTrack()override;
 
     // carve path
-    void carvePath() override;
+    void carvePath()override;
 };
 
 
