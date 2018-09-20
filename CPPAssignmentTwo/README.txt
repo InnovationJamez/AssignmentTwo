@@ -13,9 +13,14 @@
 ./exe -gr seed --sv filename.svg # generate with seed value, save svg file
 ./exe -gr seed --sb filename.maze --sv filename.svg # gen with seed, save binary, save svg
 
-
 # load binary file and save svg file
 ./exe --lb filename.maze --sv filename.svg 
 
 # solve the maze using the Maze-routing algorithm
 ./exe --pm --sb filename.maze --sv filename.svg #solve maze and add solution svg file
+
+
+changes that I have made
+
+I did not initaally make carvePath a virtual function, but I had to as I changed the functions 
+that it called in prim and recursive. 

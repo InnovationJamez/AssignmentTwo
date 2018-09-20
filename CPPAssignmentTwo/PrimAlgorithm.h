@@ -7,7 +7,6 @@
 
 #include "GrowingTree.h"
 
-
 class PrimAlgorithm: public GrowingTree {
 private:
 public:
