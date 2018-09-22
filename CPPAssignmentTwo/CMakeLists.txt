@@ -7,6 +7,11 @@ set(CMAKE_BUILD_TYPE Debug)
 
 set(CMAKE_CXX_Flags "${CMAKE_CXX_FLAGS} -Wall -pedantic")
 
+find_package(Boost)
+IF (Boost_FOUND)
+    include_directories(${Boost_INCLUDE_DIR})
+endif()
+
 add_executable(CPPAssignmentTwo
         builder.cpp
         GrowingTree.h
@@ -15,4 +20,6 @@ add_executable(CPPAssignmentTwo
         PrimAlgorithm.cpp
         RecursiveBacktrack.h
         RecursiveBacktrack.cpp
+        CommandLineOptions.cpp
+        CommandLineOptions.h
         )

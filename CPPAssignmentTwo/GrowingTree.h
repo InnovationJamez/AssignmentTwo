@@ -8,6 +8,9 @@
 #include <iostream>
 #include <random>
 #include <map>
+#include <fstream>
+#include <vector>
+#include <deque>
 
 enum DIRECTION{
     NORTH = 1,
@@ -28,14 +31,17 @@ struct coords{
 
 class GrowingTree {
 private:
-    std::vector<std::vector<disposition>>* board = new std::vector<std::vector<disposition>>;
     int width, height;
+    std::vector<std::vector<disposition>>* board = new std::vector<std::vector<disposition>>();
+    std::fstream* binFile = new std::fstream;
+    int num, edgeNo;
+    std::string* binNum;
+    std::deque<int>* numberList = new std::deque<int>;
 protected:
     coords position;
     int index, randNum;
     std::map<int,coords>* mapTree = new std::map<int, coords>;
 public:
-
     // generate random number
     void generateRandom(int max);
 
@@ -89,6 +95,39 @@ public:
 
     // pop one location off the top of the stack
     virtual void backTrack();
+
+    // add a file to binFileObject
+    void openBinFile();
+
+    // convert a base ten number to binary
+    void intToBin();
+
+    // iterate through the vector<vector<cell>> and find where the walls are
+    void connectionChecker();
+
+    // add numbers to wall container
+    void addToWallList();
+
+    // store binary number in bin file
+    void addToBinFile();
+
+    // add number of edges to third spot in wallList
+    void addEdgeNum();
+
+    // deallocate memory taken up by the binFile fstream object
+    void deleteBinFile();
+
+    // add values for edges
+    void addEdges();
+
+    // south edge
+    void southWall();
+
+    // east edge
+    void eastWall();
+
+    // create binary file
+    void binaryMain();
 };
 
 #endif // CPPASSIGNMENTTWO_GROWINGTREE_H

@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/CommandLineOptions.cpp">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/CommandLineOptions.h">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/GrowingTree.cpp">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>

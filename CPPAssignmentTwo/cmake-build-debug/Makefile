@@ -122,6 +122,33 @@ CPPAssignmentTwo/fast:
 	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/build
 .PHONY : CPPAssignmentTwo/fast
 
+CommandLineOptions.obj: CommandLineOptions.cpp.obj
+
+.PHONY : CommandLineOptions.obj
+
+# target to build an object file
+CommandLineOptions.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/CommandLineOptions.cpp.obj
+.PHONY : CommandLineOptions.cpp.obj
+
+CommandLineOptions.i: CommandLineOptions.cpp.i
+
+.PHONY : CommandLineOptions.i
+
+# target to preprocess a source file
+CommandLineOptions.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/CommandLineOptions.cpp.i
+.PHONY : CommandLineOptions.cpp.i
+
+CommandLineOptions.s: CommandLineOptions.cpp.s
+
+.PHONY : CommandLineOptions.s
+
+# target to generate assembly for a file
+CommandLineOptions.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/CommandLineOptions.cpp.s
+.PHONY : CommandLineOptions.cpp.s
+
 GrowingTree.obj: GrowingTree.cpp.obj
 
 .PHONY : GrowingTree.obj
@@ -239,6 +266,9 @@ help:
 	@echo ... CPPAssignmentTwo
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... CommandLineOptions.obj
+	@echo ... CommandLineOptions.i
+	@echo ... CommandLineOptions.s
 	@echo ... GrowingTree.obj
 	@echo ... GrowingTree.i
 	@echo ... GrowingTree.s
