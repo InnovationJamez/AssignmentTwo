@@ -22,4 +22,6 @@ add_executable(CPPAssignmentTwo
         RecursiveBacktrack.cpp
         CommandLineOptions.cpp
         CommandLineOptions.h
+        MazeLoader.cpp
+        MazeLoader.h
         )

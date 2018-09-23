@@ -176,6 +176,33 @@ GrowingTree.cpp.s:
 	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/GrowingTree.cpp.s
 .PHONY : GrowingTree.cpp.s
 
+MazeLoader.obj: MazeLoader.cpp.obj
+
+.PHONY : MazeLoader.obj
+
+# target to build an object file
+MazeLoader.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/MazeLoader.cpp.obj
+.PHONY : MazeLoader.cpp.obj
+
+MazeLoader.i: MazeLoader.cpp.i
+
+.PHONY : MazeLoader.i
+
+# target to preprocess a source file
+MazeLoader.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/MazeLoader.cpp.i
+.PHONY : MazeLoader.cpp.i
+
+MazeLoader.s: MazeLoader.cpp.s
+
+.PHONY : MazeLoader.s
+
+# target to generate assembly for a file
+MazeLoader.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/MazeLoader.cpp.s
+.PHONY : MazeLoader.cpp.s
+
 PrimAlgorithm.obj: PrimAlgorithm.cpp.obj
 
 .PHONY : PrimAlgorithm.obj
@@ -272,6 +299,9 @@ help:
 	@echo ... GrowingTree.obj
 	@echo ... GrowingTree.i
 	@echo ... GrowingTree.s
+	@echo ... MazeLoader.obj
+	@echo ... MazeLoader.i
+	@echo ... MazeLoader.s
 	@echo ... PrimAlgorithm.obj
 	@echo ... PrimAlgorithm.i
 	@echo ... PrimAlgorithm.s

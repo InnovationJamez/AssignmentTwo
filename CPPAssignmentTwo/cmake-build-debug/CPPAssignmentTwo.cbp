@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Program Files/boost_1_66_0"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -46,6 +47,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Program Files/boost_1_66_0"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -92,6 +94,12 @@
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/GrowingTree.h">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/MazeLoader.cpp">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/MazeLoader.h">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/PrimAlgorithm.cpp">
