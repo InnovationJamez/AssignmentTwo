@@ -12,7 +12,7 @@ CommandLineOptions::~CommandLineOptions(){
 
 }
 
-CommandLineOptions::statusReturnEnum = parse(int argc, char* argv);
+CommandLineOptions::statusReturnEnum parse(int argc, char* argv[]);
 
 const int CommandLineOptions::getWidth(){return width;}
 const int CommandLineOptions::getHeight(){return height;}

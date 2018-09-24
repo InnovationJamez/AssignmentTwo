@@ -6,8 +6,10 @@
 #define CPPASSIGNMENTTWO_COMMANDLINEOPTIONS_H
 
 #include <boost/program_options.hpp>
+#include <boost/filesystem.hpp>
+#include <boost/filesystem/path.hpp>
 #include <string>
-using namespace boost::progrram_options
+
 
 // -----------------------------------------------------------------------
 // Command Line Options
@@ -32,16 +34,15 @@ private:
     BUILD_OPTIONS CHOICE;
     CommandLineOptions(const CommandLineOptions &rhs);
     CommandLineOptions &operstor=(const (CommandLineOptions &rhs));
-    po::options_description myOptions;
-    std::string myInputFile:
+    boost::program_options::option_description myOptions;
     int width, height;
     std::string binFileName;
     std::string svgFileName;
-    bool GG_Flag;
-    bool GP_Flag;
-    bool GR_Flag;
-    bool SB_Flag;
-    bool SV_Flag;
+    bool GG_Flag; //Growing Tree
+    bool GP_Flag; //Prim's Algorithm
+    bool GR_Flag; //Recursive Backtrack
+    bool SB_Flag; //Binary File Name
+    bool SV_Flag; //SVG File Name
 protected:
     void setup();
     bool vallidateFiles();
@@ -53,7 +54,7 @@ public:
     };
     CommandLineOptions();
     ~CommandLineOptions();
-    statusReturnEnum = parse(int argc, char* argv);
+    statusReturnEnum parse(int argc, char* argv[]);
     inline const int getWidth();
     inline const int getHeight();
     inline const std::string getBinFileName();
