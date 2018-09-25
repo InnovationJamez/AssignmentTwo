@@ -13,15 +13,23 @@ IF (Boost_FOUND)
 endif()
 
 add_executable(CPPAssignmentTwo
-        builder.cpp
-        GrowingTree.h
-        GrowingTree.cpp
-        PrimAlgorithm.h
-        PrimAlgorithm.cpp
-        RecursiveBacktrack.h
-        RecursiveBacktrack.cpp
-        CommandLineOptions.cpp
-        CommandLineOptions.h
-        MazeLoader.cpp
-        MazeLoader.h
+        SourceFiles/builder.cpp
+
+        HeaderFiles/GrowingTree.h
+        SourceFiles/GrowingTree.cpp
+
+        HeaderFiles/PrimAlgorithm.h
+        SourceFiles/PrimAlgorithm.cpp
+
+        HeaderFiles/RecursiveBacktrack.h
+        SourceFiles/RecursiveBacktrack.cpp
+
+        SourceFiles/CommandLineOptions.cpp
+        HeaderFiles/CommandLineOptions.h
+
+        SourceFiles/MazeLoader.cpp
+        HeaderFiles/MazeLoader.h
+
+        SourceFiles/MazeSolver.cpp
+        HeaderFiles/MazeSolver.h
         )

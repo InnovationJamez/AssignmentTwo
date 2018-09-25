@@ -84,37 +84,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/CommandLineOptions.cpp">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/CommandLineOptions.h">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/CommandLineOptions.h">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/GrowingTree.h">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/GrowingTree.cpp">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/MazeLoader.h">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/GrowingTree.h">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/MazeSolver.h">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/MazeLoader.cpp">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/PrimAlgorithm.h">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/MazeLoader.h">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/RecursiveBacktrack.h">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/PrimAlgorithm.cpp">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/CommandLineOptions.cpp">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/PrimAlgorithm.h">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/GrowingTree.cpp">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/RecursiveBacktrack.cpp">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/MazeLoader.cpp">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/RecursiveBacktrack.h">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/MazeSolver.cpp">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
-		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/builder.cpp">
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/PrimAlgorithm.cpp">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/RecursiveBacktrack.cpp">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/builder.cpp">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/CMakeLists.txt">

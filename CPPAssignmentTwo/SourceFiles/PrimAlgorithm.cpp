@@ -2,7 +2,7 @@
 // Created by lehoej on 9/14/2018.
 //
 
-#include "PrimAlgorithm.h"
+#include "../HeaderFiles/PrimAlgorithm.h"
 
 // constructor
 PrimAlgorithm::PrimAlgorithm(int width, int height) : GrowingTree(width,height)

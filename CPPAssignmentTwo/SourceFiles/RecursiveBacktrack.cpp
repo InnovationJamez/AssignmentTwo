@@ -2,7 +2,7 @@
 // Created by lehoej on 9/16/2018.
 //
 
-#include "RecursiveBacktrack.h"
+#include "../HeaderFiles/RecursiveBacktrack.h"
 
 //constructor
 RecursiveBacktrack::RecursiveBacktrack(int width, int height) : GrowingTree(width,height){

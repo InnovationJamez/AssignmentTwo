@@ -2,7 +2,7 @@
 // Created by lehoej on 9/21/2018.
 //
 
-#include "MazeLoader.h"
+#include "../HeaderFiles/MazeLoader.h"
 
 MazeLoader::MazeLoader(std::string bin, std::string svg)
 :binFileName(bin),SVGFileName(svg)

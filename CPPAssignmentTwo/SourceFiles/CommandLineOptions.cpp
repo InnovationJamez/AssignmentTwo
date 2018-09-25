@@ -2,9 +2,15 @@
 // Created by lehoej on 9/21/2018.
 //
 
-#include "CommandLineOptions.h"
+#include "../HeaderFiles/CommandLineOptions.h"
 
-CommandLineOptions::CommandLineOptions(){
+CommandLineOptions::CommandLineOptions()
+:myOptions(""),
+width(0), 
+height(0),
+binFileName("mazeFile.maze"),
+svgFileName("svgFile.svg")
+{
 
 }
 

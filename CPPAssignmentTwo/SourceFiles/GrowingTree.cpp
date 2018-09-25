@@ -2,7 +2,7 @@
 // Created by lehoej on 9/14/2018.
 //
 
-#include "GrowingTree.h"
+#include "../HeaderFiles/GrowingTree.h"
 
 // fill board generate & start point
 GrowingTree::GrowingTree(int x, int y)

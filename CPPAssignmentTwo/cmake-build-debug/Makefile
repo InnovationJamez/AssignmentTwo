@@ -122,167 +122,194 @@ CPPAssignmentTwo/fast:
 	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/build
 .PHONY : CPPAssignmentTwo/fast
 
-CommandLineOptions.obj: CommandLineOptions.cpp.obj
+SourceFiles/CommandLineOptions.obj: SourceFiles/CommandLineOptions.cpp.obj
 
-.PHONY : CommandLineOptions.obj
-
-# target to build an object file
-CommandLineOptions.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/CommandLineOptions.cpp.obj
-.PHONY : CommandLineOptions.cpp.obj
-
-CommandLineOptions.i: CommandLineOptions.cpp.i
-
-.PHONY : CommandLineOptions.i
-
-# target to preprocess a source file
-CommandLineOptions.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/CommandLineOptions.cpp.i
-.PHONY : CommandLineOptions.cpp.i
-
-CommandLineOptions.s: CommandLineOptions.cpp.s
-
-.PHONY : CommandLineOptions.s
-
-# target to generate assembly for a file
-CommandLineOptions.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/CommandLineOptions.cpp.s
-.PHONY : CommandLineOptions.cpp.s
-
-GrowingTree.obj: GrowingTree.cpp.obj
-
-.PHONY : GrowingTree.obj
+.PHONY : SourceFiles/CommandLineOptions.obj
 
 # target to build an object file
-GrowingTree.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/GrowingTree.cpp.obj
-.PHONY : GrowingTree.cpp.obj
+SourceFiles/CommandLineOptions.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/CommandLineOptions.cpp.obj
+.PHONY : SourceFiles/CommandLineOptions.cpp.obj
 
-GrowingTree.i: GrowingTree.cpp.i
+SourceFiles/CommandLineOptions.i: SourceFiles/CommandLineOptions.cpp.i
 
-.PHONY : GrowingTree.i
+.PHONY : SourceFiles/CommandLineOptions.i
 
 # target to preprocess a source file
-GrowingTree.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/GrowingTree.cpp.i
-.PHONY : GrowingTree.cpp.i
+SourceFiles/CommandLineOptions.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/CommandLineOptions.cpp.i
+.PHONY : SourceFiles/CommandLineOptions.cpp.i
 
-GrowingTree.s: GrowingTree.cpp.s
+SourceFiles/CommandLineOptions.s: SourceFiles/CommandLineOptions.cpp.s
 
-.PHONY : GrowingTree.s
+.PHONY : SourceFiles/CommandLineOptions.s
 
 # target to generate assembly for a file
-GrowingTree.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/GrowingTree.cpp.s
-.PHONY : GrowingTree.cpp.s
+SourceFiles/CommandLineOptions.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/CommandLineOptions.cpp.s
+.PHONY : SourceFiles/CommandLineOptions.cpp.s
 
-MazeLoader.obj: MazeLoader.cpp.obj
+SourceFiles/GrowingTree.obj: SourceFiles/GrowingTree.cpp.obj
 
-.PHONY : MazeLoader.obj
+.PHONY : SourceFiles/GrowingTree.obj
 
 # target to build an object file
-MazeLoader.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/MazeLoader.cpp.obj
-.PHONY : MazeLoader.cpp.obj
+SourceFiles/GrowingTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/GrowingTree.cpp.obj
+.PHONY : SourceFiles/GrowingTree.cpp.obj
 
-MazeLoader.i: MazeLoader.cpp.i
+SourceFiles/GrowingTree.i: SourceFiles/GrowingTree.cpp.i
 
-.PHONY : MazeLoader.i
+.PHONY : SourceFiles/GrowingTree.i
 
 # target to preprocess a source file
-MazeLoader.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/MazeLoader.cpp.i
-.PHONY : MazeLoader.cpp.i
+SourceFiles/GrowingTree.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/GrowingTree.cpp.i
+.PHONY : SourceFiles/GrowingTree.cpp.i
 
-MazeLoader.s: MazeLoader.cpp.s
+SourceFiles/GrowingTree.s: SourceFiles/GrowingTree.cpp.s
 
-.PHONY : MazeLoader.s
+.PHONY : SourceFiles/GrowingTree.s
 
 # target to generate assembly for a file
-MazeLoader.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/MazeLoader.cpp.s
-.PHONY : MazeLoader.cpp.s
+SourceFiles/GrowingTree.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/GrowingTree.cpp.s
+.PHONY : SourceFiles/GrowingTree.cpp.s
 
-PrimAlgorithm.obj: PrimAlgorithm.cpp.obj
+SourceFiles/MazeLoader.obj: SourceFiles/MazeLoader.cpp.obj
 
-.PHONY : PrimAlgorithm.obj
+.PHONY : SourceFiles/MazeLoader.obj
 
 # target to build an object file
-PrimAlgorithm.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.obj
-.PHONY : PrimAlgorithm.cpp.obj
+SourceFiles/MazeLoader.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.obj
+.PHONY : SourceFiles/MazeLoader.cpp.obj
 
-PrimAlgorithm.i: PrimAlgorithm.cpp.i
+SourceFiles/MazeLoader.i: SourceFiles/MazeLoader.cpp.i
 
-.PHONY : PrimAlgorithm.i
+.PHONY : SourceFiles/MazeLoader.i
 
 # target to preprocess a source file
-PrimAlgorithm.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.i
-.PHONY : PrimAlgorithm.cpp.i
+SourceFiles/MazeLoader.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.i
+.PHONY : SourceFiles/MazeLoader.cpp.i
 
-PrimAlgorithm.s: PrimAlgorithm.cpp.s
+SourceFiles/MazeLoader.s: SourceFiles/MazeLoader.cpp.s
 
-.PHONY : PrimAlgorithm.s
+.PHONY : SourceFiles/MazeLoader.s
 
 # target to generate assembly for a file
-PrimAlgorithm.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/PrimAlgorithm.cpp.s
-.PHONY : PrimAlgorithm.cpp.s
+SourceFiles/MazeLoader.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.s
+.PHONY : SourceFiles/MazeLoader.cpp.s
 
-RecursiveBacktrack.obj: RecursiveBacktrack.cpp.obj
+SourceFiles/MazeSolver.obj: SourceFiles/MazeSolver.cpp.obj
 
-.PHONY : RecursiveBacktrack.obj
+.PHONY : SourceFiles/MazeSolver.obj
 
 # target to build an object file
-RecursiveBacktrack.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.obj
-.PHONY : RecursiveBacktrack.cpp.obj
+SourceFiles/MazeSolver.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeSolver.cpp.obj
+.PHONY : SourceFiles/MazeSolver.cpp.obj
 
-RecursiveBacktrack.i: RecursiveBacktrack.cpp.i
+SourceFiles/MazeSolver.i: SourceFiles/MazeSolver.cpp.i
 
-.PHONY : RecursiveBacktrack.i
+.PHONY : SourceFiles/MazeSolver.i
 
 # target to preprocess a source file
-RecursiveBacktrack.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.i
-.PHONY : RecursiveBacktrack.cpp.i
+SourceFiles/MazeSolver.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeSolver.cpp.i
+.PHONY : SourceFiles/MazeSolver.cpp.i
 
-RecursiveBacktrack.s: RecursiveBacktrack.cpp.s
+SourceFiles/MazeSolver.s: SourceFiles/MazeSolver.cpp.s
 
-.PHONY : RecursiveBacktrack.s
+.PHONY : SourceFiles/MazeSolver.s
 
 # target to generate assembly for a file
-RecursiveBacktrack.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/RecursiveBacktrack.cpp.s
-.PHONY : RecursiveBacktrack.cpp.s
+SourceFiles/MazeSolver.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeSolver.cpp.s
+.PHONY : SourceFiles/MazeSolver.cpp.s
 
-builder.obj: builder.cpp.obj
+SourceFiles/PrimAlgorithm.obj: SourceFiles/PrimAlgorithm.cpp.obj
 
-.PHONY : builder.obj
+.PHONY : SourceFiles/PrimAlgorithm.obj
 
 # target to build an object file
-builder.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/builder.cpp.obj
-.PHONY : builder.cpp.obj
+SourceFiles/PrimAlgorithm.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj
+.PHONY : SourceFiles/PrimAlgorithm.cpp.obj
 
-builder.i: builder.cpp.i
+SourceFiles/PrimAlgorithm.i: SourceFiles/PrimAlgorithm.cpp.i
 
-.PHONY : builder.i
+.PHONY : SourceFiles/PrimAlgorithm.i
 
 # target to preprocess a source file
-builder.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/builder.cpp.i
-.PHONY : builder.cpp.i
+SourceFiles/PrimAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.i
+.PHONY : SourceFiles/PrimAlgorithm.cpp.i
 
-builder.s: builder.cpp.s
+SourceFiles/PrimAlgorithm.s: SourceFiles/PrimAlgorithm.cpp.s
 
-.PHONY : builder.s
+.PHONY : SourceFiles/PrimAlgorithm.s
 
 # target to generate assembly for a file
-builder.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/builder.cpp.s
-.PHONY : builder.cpp.s
+SourceFiles/PrimAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.s
+.PHONY : SourceFiles/PrimAlgorithm.cpp.s
+
+SourceFiles/RecursiveBacktrack.obj: SourceFiles/RecursiveBacktrack.cpp.obj
+
+.PHONY : SourceFiles/RecursiveBacktrack.obj
+
+# target to build an object file
+SourceFiles/RecursiveBacktrack.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.obj
+.PHONY : SourceFiles/RecursiveBacktrack.cpp.obj
+
+SourceFiles/RecursiveBacktrack.i: SourceFiles/RecursiveBacktrack.cpp.i
+
+.PHONY : SourceFiles/RecursiveBacktrack.i
+
+# target to preprocess a source file
+SourceFiles/RecursiveBacktrack.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.i
+.PHONY : SourceFiles/RecursiveBacktrack.cpp.i
+
+SourceFiles/RecursiveBacktrack.s: SourceFiles/RecursiveBacktrack.cpp.s
+
+.PHONY : SourceFiles/RecursiveBacktrack.s
+
+# target to generate assembly for a file
+SourceFiles/RecursiveBacktrack.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.s
+.PHONY : SourceFiles/RecursiveBacktrack.cpp.s
+
+SourceFiles/builder.obj: SourceFiles/builder.cpp.obj
+
+.PHONY : SourceFiles/builder.obj
+
+# target to build an object file
+SourceFiles/builder.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/builder.cpp.obj
+.PHONY : SourceFiles/builder.cpp.obj
+
+SourceFiles/builder.i: SourceFiles/builder.cpp.i
+
+.PHONY : SourceFiles/builder.i
+
+# target to preprocess a source file
+SourceFiles/builder.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/builder.cpp.i
+.PHONY : SourceFiles/builder.cpp.i
+
+SourceFiles/builder.s: SourceFiles/builder.cpp.s
+
+.PHONY : SourceFiles/builder.s
+
+# target to generate assembly for a file
+SourceFiles/builder.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/builder.cpp.s
+.PHONY : SourceFiles/builder.cpp.s
 
 # Help Target
 help:
@@ -293,24 +320,27 @@ help:
 	@echo ... CPPAssignmentTwo
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CommandLineOptions.obj
-	@echo ... CommandLineOptions.i
-	@echo ... CommandLineOptions.s
-	@echo ... GrowingTree.obj
-	@echo ... GrowingTree.i
-	@echo ... GrowingTree.s
-	@echo ... MazeLoader.obj
-	@echo ... MazeLoader.i
-	@echo ... MazeLoader.s
-	@echo ... PrimAlgorithm.obj
-	@echo ... PrimAlgorithm.i
-	@echo ... PrimAlgorithm.s
-	@echo ... RecursiveBacktrack.obj
-	@echo ... RecursiveBacktrack.i
-	@echo ... RecursiveBacktrack.s
-	@echo ... builder.obj
-	@echo ... builder.i
-	@echo ... builder.s
+	@echo ... SourceFiles/CommandLineOptions.obj
+	@echo ... SourceFiles/CommandLineOptions.i
+	@echo ... SourceFiles/CommandLineOptions.s
+	@echo ... SourceFiles/GrowingTree.obj
+	@echo ... SourceFiles/GrowingTree.i
+	@echo ... SourceFiles/GrowingTree.s
+	@echo ... SourceFiles/MazeLoader.obj
+	@echo ... SourceFiles/MazeLoader.i
+	@echo ... SourceFiles/MazeLoader.s
+	@echo ... SourceFiles/MazeSolver.obj
+	@echo ... SourceFiles/MazeSolver.i
+	@echo ... SourceFiles/MazeSolver.s
+	@echo ... SourceFiles/PrimAlgorithm.obj
+	@echo ... SourceFiles/PrimAlgorithm.i
+	@echo ... SourceFiles/PrimAlgorithm.s
+	@echo ... SourceFiles/RecursiveBacktrack.obj
+	@echo ... SourceFiles/RecursiveBacktrack.i
+	@echo ... SourceFiles/RecursiveBacktrack.s
+	@echo ... SourceFiles/builder.obj
+	@echo ... SourceFiles/builder.i
+	@echo ... SourceFiles/builder.s
 .PHONY : help
 
 
