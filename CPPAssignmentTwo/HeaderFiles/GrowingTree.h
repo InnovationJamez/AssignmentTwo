@@ -11,6 +11,7 @@
 #include <fstream>
 #include <vector>
 #include <deque>
+#include<memory>
 
 enum DIRECTION{
     NORTH = 1,
@@ -31,11 +32,12 @@ struct coords{
 
 class GrowingTree {
 private:
+    std::string binFileName;
     int width, height;
     std::vector<std::vector<disposition>>* board = new std::vector<std::vector<disposition>>();
     std::fstream* binFile = new std::fstream;
     int num, edgeNo;
-    std::string* binNum;
+    std::string binNum;
     std::deque<int>* numberList = new std::deque<int>;
 protected:
     coords position;
@@ -76,7 +78,7 @@ public:
     inline void setVisited();
 
     // fill board generate & start point
-    GrowingTree(int x, int y);
+    GrowingTree(int x, int y, std::string binName);
 
     // de-constructor deallocate the memory taken up by the object
     ~GrowingTree();

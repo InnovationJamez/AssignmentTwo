@@ -5,7 +5,7 @@
 #include "../HeaderFiles/PrimAlgorithm.h"
 
 // constructor
-PrimAlgorithm::PrimAlgorithm(int width, int height) : GrowingTree(width,height)
+PrimAlgorithm::PrimAlgorithm(int width, int height, std::string binFileName) : GrowingTree(width,height, binFileName)
 {
     addLocation();
 }

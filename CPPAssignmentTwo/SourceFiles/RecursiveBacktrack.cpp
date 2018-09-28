@@ -5,7 +5,7 @@
 #include "../HeaderFiles/RecursiveBacktrack.h"
 
 //constructor
-RecursiveBacktrack::RecursiveBacktrack(int width, int height) : GrowingTree(width,height){
+RecursiveBacktrack::RecursiveBacktrack(int width, int height, std::string binFileName) : GrowingTree(width,height,binFileName){
     addLocation();
 }
 
@@ -39,18 +39,22 @@ void RecursiveBacktrack::carvePath(){
         case NORTH:
             moveNorth();
             addLocation();
+			setVisited();
             break;
         case SOUTH:
             moveSouth();
             addLocation();
+			setVisited();
             break;
         case EAST:
             moveEast();
             addLocation();
+			setVisited();
             break;
         case WEST:
             moveWest();
             addLocation();
+			setVisited();
             break;
         case EMPTY:
             backTrack();

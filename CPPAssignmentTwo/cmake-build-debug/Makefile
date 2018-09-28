@@ -122,33 +122,6 @@ CPPAssignmentTwo/fast:
 	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/build
 .PHONY : CPPAssignmentTwo/fast
 
-SourceFiles/CommandLineOptions.obj: SourceFiles/CommandLineOptions.cpp.obj
-
-.PHONY : SourceFiles/CommandLineOptions.obj
-
-# target to build an object file
-SourceFiles/CommandLineOptions.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/CommandLineOptions.cpp.obj
-.PHONY : SourceFiles/CommandLineOptions.cpp.obj
-
-SourceFiles/CommandLineOptions.i: SourceFiles/CommandLineOptions.cpp.i
-
-.PHONY : SourceFiles/CommandLineOptions.i
-
-# target to preprocess a source file
-SourceFiles/CommandLineOptions.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/CommandLineOptions.cpp.i
-.PHONY : SourceFiles/CommandLineOptions.cpp.i
-
-SourceFiles/CommandLineOptions.s: SourceFiles/CommandLineOptions.cpp.s
-
-.PHONY : SourceFiles/CommandLineOptions.s
-
-# target to generate assembly for a file
-SourceFiles/CommandLineOptions.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/CommandLineOptions.cpp.s
-.PHONY : SourceFiles/CommandLineOptions.cpp.s
-
 SourceFiles/GrowingTree.obj: SourceFiles/GrowingTree.cpp.obj
 
 .PHONY : SourceFiles/GrowingTree.obj
@@ -202,33 +175,6 @@ SourceFiles/MazeLoader.s: SourceFiles/MazeLoader.cpp.s
 SourceFiles/MazeLoader.cpp.s:
 	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.s
 .PHONY : SourceFiles/MazeLoader.cpp.s
-
-SourceFiles/MazeSolver.obj: SourceFiles/MazeSolver.cpp.obj
-
-.PHONY : SourceFiles/MazeSolver.obj
-
-# target to build an object file
-SourceFiles/MazeSolver.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeSolver.cpp.obj
-.PHONY : SourceFiles/MazeSolver.cpp.obj
-
-SourceFiles/MazeSolver.i: SourceFiles/MazeSolver.cpp.i
-
-.PHONY : SourceFiles/MazeSolver.i
-
-# target to preprocess a source file
-SourceFiles/MazeSolver.cpp.i:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeSolver.cpp.i
-.PHONY : SourceFiles/MazeSolver.cpp.i
-
-SourceFiles/MazeSolver.s: SourceFiles/MazeSolver.cpp.s
-
-.PHONY : SourceFiles/MazeSolver.s
-
-# target to generate assembly for a file
-SourceFiles/MazeSolver.cpp.s:
-	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeSolver.cpp.s
-.PHONY : SourceFiles/MazeSolver.cpp.s
 
 SourceFiles/PrimAlgorithm.obj: SourceFiles/PrimAlgorithm.cpp.obj
 
@@ -320,18 +266,12 @@ help:
 	@echo ... CPPAssignmentTwo
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SourceFiles/CommandLineOptions.obj
-	@echo ... SourceFiles/CommandLineOptions.i
-	@echo ... SourceFiles/CommandLineOptions.s
 	@echo ... SourceFiles/GrowingTree.obj
 	@echo ... SourceFiles/GrowingTree.i
 	@echo ... SourceFiles/GrowingTree.s
 	@echo ... SourceFiles/MazeLoader.obj
 	@echo ... SourceFiles/MazeLoader.i
 	@echo ... SourceFiles/MazeLoader.s
-	@echo ... SourceFiles/MazeSolver.obj
-	@echo ... SourceFiles/MazeSolver.i
-	@echo ... SourceFiles/MazeSolver.s
 	@echo ... SourceFiles/PrimAlgorithm.obj
 	@echo ... SourceFiles/PrimAlgorithm.i
 	@echo ... SourceFiles/PrimAlgorithm.s

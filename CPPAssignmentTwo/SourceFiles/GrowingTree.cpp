@@ -5,8 +5,8 @@
 #include "../HeaderFiles/GrowingTree.h"
 
 // fill board generate & start point
-GrowingTree::GrowingTree(int x, int y)
-        :width(x), height(y){
+GrowingTree::GrowingTree(int x, int y, std::string binName)
+        :width(x), height(y), binFileName(binName){
     this->index=0;
     fillBoard();
     setLocation();
@@ -21,10 +21,11 @@ GrowingTree::~GrowingTree() {
 
 // growing tree loop
 void GrowingTree::buildLoop() {
-    while(~mapTree->empty()){
+	while(index > 0) {
         selectPiece();
         carvePath();
-    }
+		setVisited();
+	}
 }
 
 // generate random number
@@ -56,73 +57,69 @@ void GrowingTree::fillBoard(){
 }
 
 // set the path of the of maze
-void GrowingTree::storeNorth(){
+inline void GrowingTree::storeNorth(){
     (*board)[this->position.xPos][this->position.yPos].binVal |= 10000;
 }
-void GrowingTree::storeSouth(){
+inline void GrowingTree::storeSouth(){
     (*board)[this->position.xPos][this->position.yPos].binVal |= 01000;
 }
-void GrowingTree::storeEast(){
+inline void GrowingTree::storeEast(){
     (*board)[this->position.xPos][this->position.yPos].binVal |= 00100;
 }
-void GrowingTree::storeWest(){
+inline void GrowingTree::storeWest(){
     (*board)[this->position.xPos][this->position.yPos].binVal |= 00010;
 }
 
 // move functions: move in specified direction
-void GrowingTree::moveNorth(){
+inline void GrowingTree::moveNorth(){
     storeNorth();
     this->position.yPos--;
     storeSouth();
 }
-void GrowingTree::moveSouth(){
+inline void GrowingTree::moveSouth(){
     storeSouth();
     this->position.yPos++;
     storeNorth();
 }
-void GrowingTree::moveEast(){
+inline void GrowingTree::moveEast(){
     storeEast();
     this->position.xPos++;
     storeWest();
 }
-void GrowingTree::moveWest(){
+inline void GrowingTree::moveWest(){
     storeWest();
     this->position.xPos--;
     storeEast();
 }
 
 // check functions check the neighbors return result
-bool GrowingTree::checkNorth(){
-    if((*board)[this->position.xPos][this->position.yPos-1].binVal & 0b000001
-        && this->position.yPos != 0){
-        return true;
+inline bool GrowingTree::checkNorth(){
+    if(this->position.yPos != 0){
+		return ((*board)[this->position.xPos][this->position.yPos-1].binVal & 1) ? false : true;
     }
     else{
         return false;
     }
 }
-bool GrowingTree::checkSouth(){
-    if((*board)[this->position.xPos][this->position.yPos+1].binVal & 0b00001
-        && this->position.yPos != this->height-1){
-        return true;
+inline bool GrowingTree::checkSouth(){
+    if(this->position.yPos != this->height-1){
+		return ((*board)[this->position.xPos][this->position.yPos + 1].binVal & 1) ? false : true;
     }
     else{
         return false;
     }
 }
-bool GrowingTree::checkEast(){
-    if((*board)[this->position.xPos+1][this->position.yPos].binVal & 0b00001
-        && this->position.xPos != this->width-1){
-        return true;
+inline bool GrowingTree::checkEast(){
+    if(this->position.xPos != this->width-1){
+		return ((*board)[this->position.xPos + 1][this->position.yPos].binVal & 1) ? false : true;
     }
     else{
         return false;
     }
 }
-bool GrowingTree::checkWest(){
-    if((*board)[this->position.xPos-1][this->position.yPos].binVal & 0b00001
-        && this->position.xPos != 0){
-        return true;
+inline bool GrowingTree::checkWest(){
+    if(this->position.xPos != 0){
+		return ((*board)[this->position.xPos - 1][this->position.yPos].binVal & 1) ? false : true;
     }
     else{
         return false;
@@ -134,15 +131,16 @@ DIRECTION GrowingTree::neighborChk(){
     std::vector<DIRECTION> choice;
     if(checkNorth()){
         choice.push_back(NORTH);
-    }else if(checkSouth()){
+    }if(checkSouth()){
         choice.push_back(SOUTH);
-    }else if(checkEast()){
+    }if(checkEast()){
         choice.push_back(EAST);
-    }else if(checkWest()){
+    }if(checkWest()){
         choice.push_back(WEST);
-    }if(choice.empty()){
-        return EMPTY;
-    }else{
+	}
+	if(choice.empty()) {
+		return EMPTY;
+	}else{
         generateRandom(choice.size());
         return choice[this->randNum];
     }
@@ -169,8 +167,8 @@ void GrowingTree::carvePath(){
             moveEast();
             addLocation();
             break;
-        case WEST:
-            moveWest();
+        case WEST:            
+			moveWest();
             addLocation();
             break;
         case EMPTY:
@@ -184,13 +182,14 @@ void GrowingTree::carvePath(){
 
 // select the newest piece from the map
 void GrowingTree::selectPiece(){
-this->position = (*mapTree)[index];
+this->position.xPos = (*mapTree)[index].xPos;
+this->position.yPos = (*mapTree)[index].yPos;
 }
 
 // add location to the map
 void GrowingTree::addLocation(){
+	this->index++;
     (*mapTree)[index] = {this->position.xPos,this->position.yPos};
-    this->index++;
 }
 
 // back track: remove the selected location from the map
@@ -202,20 +201,18 @@ void GrowingTree::backTrack(){
 // binary file part
 // add a file to binFileObject
 void GrowingTree::openBinFile(){
-    (*binFile).open("newMaze.maze", std::ios::in | std::ios::out | std::ios::trunc);
+    (*binFile).open("MazeFiles/" + binFileName, std::ios::in | std::ios::out | std::ios::trunc);
 }
 
 // convert a base ten number to binary
 void GrowingTree::intToBin(){
-    if(!(*binNum).empty()){
-        (*binNum).clear();
-    }
+	binNum = "";
     while (num > 0)
     {
         binNum = (num % 2 == 1 ? '1' : '0') + binNum;
         num = num / 2;
     }
-    while ((*binNum).size() < 32)
+    while(binNum.length() < 32)
     {
         binNum = '0' + binNum;
     }
@@ -247,7 +244,9 @@ void GrowingTree::connectionChecker(){
 
 // store binary number in bin file
 void GrowingTree::addToBinFile(){
-    (*binFile) << binNum;
+	for (int counter = 0; counter <= (int)binNum.size(); counter++) {
+		binFile->put(binNum[counter]);
+	}
 }
 
 // add number of edges to third spot in wallList
@@ -270,7 +269,6 @@ void GrowingTree::addEdges(){
         intToBin();
         addToBinFile();
     }
-    deleteBinFile();
 }
 
 // deallocate memory taken up by the binFile fstream object

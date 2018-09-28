@@ -13,7 +13,7 @@ private:
     std::stack<coords> mapStack;
 public:
     // constructor
-    RecursiveBacktrack(int width, int height);
+    RecursiveBacktrack(int width, int height, std::string binFileName);
 
     // growing tree loop
     void buildLoop ()override;

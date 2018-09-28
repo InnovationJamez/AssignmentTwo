@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/GrowingTree.h
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/GrowingTree.h
 iostream
 -
 random
@@ -19,14 +19,10 @@ vector
 -
 deque
 -
-
-C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/RecursiveBacktrack.cpp
-RecursiveBacktrack.h
-C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/RecursiveBacktrack.h
-
-C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/RecursiveBacktrack.h
-stack
+memory
 -
-GrowingTree.h
-C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/GrowingTree.h
+
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/GrowingTree.cpp
+../HeaderFiles/GrowingTree.h
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/GrowingTree.h
 

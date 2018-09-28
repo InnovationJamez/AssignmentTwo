@@ -7,6 +7,7 @@
 #include<iostream>
 #include<fstream>
 #include<vector>
+#include<math.h>
 
 class MazeLoader {
 private:
@@ -17,10 +18,11 @@ private:
     float bufferHeight;
     std::string binFileName;
     std::string SVGFileName;
+    int result = 0;
     std::vector<int>* connections= new std::vector<int>;
     std::fstream* binFile = new std::fstream;
     std::fstream* svgFile = new std::fstream;
-private:
+public:
     MazeLoader(std::string bin, std::string svg);
     ~MazeLoader();
     void openBinFile();
@@ -31,8 +33,8 @@ private:
     void startSVG();
     void drawMaze();
     void drawConnection();
-    void endSVG();
     void closeSVG();
+    void binToInt(std::string binVal);
 };
 
 

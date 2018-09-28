@@ -5,13 +5,13 @@
 #ifndef CPPASSIGNMENTTWO_PRIMALGORITHM_H
 #define CPPASSIGNMENTTWO_PRIMALGORITHM_H
 
-#include "GrowingTree.h"
+#include "../HeaderFiles/GrowingTree.h"
 
 class PrimAlgorithm: public GrowingTree {
 private:
 public:
     // constructor
-    PrimAlgorithm(int width, int height);
+    PrimAlgorithm(int width, int height, std::string binFileName);
     // select newest piece from the map
     inline void selectPiece()override;
 
