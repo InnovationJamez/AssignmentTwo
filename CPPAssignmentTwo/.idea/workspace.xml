@@ -33,31 +33,12 @@
     <expand />
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$USER_HOME$/OneDrive - Wentworth Institute of Technology/Junior Year/Fall Semester/Objectect Orientated Proramming with C++/AssignmentOneSubmission/mazeLoader.cpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="238">
-                    <caret line="162" column="26" lean-forward="true" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
     <session id="1540029368">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="3" />
@@ -75,7 +56,8 @@
           <entry key="cbp" value="3" />
           <entry key="cmake" value="4" />
           <entry key="cpp" value="94" />
-          <entry key="h" value="85" />
+          <entry key="h" value="88" />
+          <entry key="tcc" value="1" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
@@ -83,15 +65,15 @@
         <counts>
           <entry key="CMakeCache.txt" value="2" />
           <entry key="CMakeLists.txt" value="7" />
-          <entry key="ObjectiveC" value="179" />
+          <entry key="ObjectiveC" value="183" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="11163" />
-          <entry key="h" value="6568" />
+          <entry key="cpp" value="12032" />
+          <entry key="h" value="6641" />
           <entry key="txt" value="523" />
         </counts>
       </usages-collector>
@@ -99,7 +81,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="523" />
-          <entry key="ObjectiveC" value="17731" />
+          <entry key="ObjectiveC" value="18673" />
         </counts>
       </usages-collector>
     </session>
@@ -121,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SourceFiles/GrowingTree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="3519">
+              <caret line="207" column="29" lean-forward="true" selection-start-line="207" selection-start-column="29" selection-end-line="207" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -130,8 +112,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SourceFiles/MazeLoader.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="51">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="780" selection-start-line="780" selection-end-line="780" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ios_base.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="1158" selection-start-line="1158" selection-end-line="1158" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="266" selection-start-line="266" selection-end-line="266" />
             </state>
           </provider>
         </entry>
@@ -139,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HeaderFiles/MazeLoader.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state relative-caret-position="153">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="e#118#136#0" expanded="true" />
               </folding>
@@ -151,8 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HeaderFiles/GrowingTree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="2" />
               <folding>
                 <element signature="e#121#140#0" expanded="true" />
               </folding>
@@ -163,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SourceFiles/builder.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            <state relative-caret-position="-17">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -182,6 +200,7 @@
       <find>map</find>
       <find>Recersive</find>
       <find>open</find>
+      <find>openSVG</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -224,14 +243,14 @@
         <option value="$PROJECT_DIR$/HeaderFiles/CommandLineOptions.h" />
         <option value="$PROJECT_DIR$/SourceFiles/CommandLineOptions.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/HeaderFiles/MazeLoader.h" />
         <option value="$PROJECT_DIR$/HeaderFiles/GrowingTree.h" />
         <option value="$PROJECT_DIR$/HeaderFiles/RecursiveBacktrack.h" />
         <option value="$PROJECT_DIR$/SourceFiles/RecursiveBacktrack.cpp" />
         <option value="$PROJECT_DIR$/HeaderFiles/PrimAlgorithm.h" />
         <option value="$PROJECT_DIR$/SourceFiles/PrimAlgorithm.cpp" />
-        <option value="$PROJECT_DIR$/SourceFiles/builder.cpp" />
         <option value="$PROJECT_DIR$/SourceFiles/GrowingTree.cpp" />
+        <option value="$PROJECT_DIR$/SourceFiles/builder.cpp" />
+        <option value="$PROJECT_DIR$/HeaderFiles/MazeLoader.h" />
         <option value="$PROJECT_DIR$/SourceFiles/MazeLoader.cpp" />
       </list>
     </option>
@@ -243,10 +262,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="width" value="1122" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -357,12 +377,12 @@
       <workItem from="1538007123661" duration="2293000" />
       <workItem from="1538129458091" duration="716000" />
       <workItem from="1538130915331" duration="867000" />
-      <workItem from="1538131904632" duration="5363000" />
+      <workItem from="1538131904632" duration="16828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148479000" />
+    <option name="totallyTimeSpent" value="159944000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -374,24 +394,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="897" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.18249258" side_tool="true" weight="0.20110957" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.81750745" visible="true" weight="0.23416965" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.81750745" visible="true" weight="0.0" />
       <window_info id="Structure" order="2" sideWeight="0.18249258" side_tool="true" weight="0.20110957" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49798658" weight="0.37096775" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49798658" weight="0.36950147" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067115" side_tool="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32937685" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49731544" visible="true" weight="0.305638" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.398827" />
-      <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.49932885" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49731544" weight="0.15384616" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3976261" />
+      <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.49932885" weight="0.32844576" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49932885" weight="0.019061584" />
+      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49932885" weight="0.29178885" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32937685" />
       <window_info anchor="right" id="Database" order="0" weight="0.32889965" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -430,9 +449,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/RecersiveBackTrack.cpp" />
     <entry file="file://$PROJECT_DIR$/CPPAssignmentTwo.cbp" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/PrimAlgorithm.h" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/PrimAlgorithm.cpp" />
@@ -480,13 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
@@ -567,54 +576,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeaderFiles/MazeLoader.h">
+    <entry file="file://$USER_HOME$/OneDrive - Wentworth Institute of Technology/Junior Year/Fall Semester/Objectect Orientated Proramming with C++/AssignmentOneSubmission/mazeLoader.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="e#118#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HeaderFiles/GrowingTree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="e#121#140#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1420">
+          <caret line="263" column="40" lean-forward="true" selection-start-line="263" selection-start-column="40" selection-end-line="263" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SourceFiles/builder.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        <state relative-caret-position="-17">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SourceFiles/GrowingTree.cpp">
+    <entry file="file://$PROJECT_DIR$/HeaderFiles/GrowingTree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <element signature="e#121#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeaderFiles/MazeLoader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#118#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SourceFiles/GrowingTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3519">
+          <caret line="207" column="29" lean-forward="true" selection-start-line="207" selection-start-column="29" selection-end-line="207" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ios_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="1158" selection-start-line="1158" selection-end-line="1158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="780" selection-start-line="780" selection-end-line="780" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SourceFiles/MazeLoader.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/OneDrive - Wentworth Institute of Technology/Junior Year/Fall Semester/Objectect Orientated Proramming with C++/AssignmentOneSubmission/mazeLoader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="162" column="26" lean-forward="true" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
+        <state relative-caret-position="51">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>

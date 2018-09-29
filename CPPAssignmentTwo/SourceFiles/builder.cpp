@@ -29,9 +29,10 @@ int main() {
     {
         BuildPrim(&width, &height, &binFileName);
     }
-	
-
-
+    if (true)
+    {
+        LoadMaze(&binFileName, &SVGFileName);
+    }
     return 0;
 }
 

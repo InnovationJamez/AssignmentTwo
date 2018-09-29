@@ -9,6 +9,10 @@
 #include<vector>
 #include<math.h>
 
+struct position{
+    int xPos, yPos;
+};
+
 class MazeLoader {
 private:
     int mazeWidth;
@@ -16,6 +20,7 @@ private:
     int noOfWalls;
     float bufferWidth;
     float bufferHeight;
+    position a, b;
     std::string binFileName;
     std::string SVGFileName;
     int result = 0;
@@ -27,11 +32,9 @@ public:
     ~MazeLoader();
     void openBinFile();
     void readBinFile();
-    void storeConnections();
     void closeBinFile();
     void openSVG();
-    void startSVG();
-    void drawMaze();
+    void readConnections();
     void drawConnection();
     void closeSVG();
     void binToInt(std::string binVal);
