@@ -21,7 +21,7 @@ int main() {
 
 //   BuildGrowingTree(&width, &height, board);
 //   BuildRecursive(&width, &height, board);
-   BuildPrim(&width, &height, board);
+     BuildPrim(&width, &height, board);
 
     BinaryGenerator genObj(board, &width, &height, &binFileName);
     genObj.binaryMain();

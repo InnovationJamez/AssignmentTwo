@@ -44,10 +44,10 @@
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="6" />
-          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,7 +57,7 @@
           <entry key="cbp" value="3" />
           <entry key="cmake" value="4" />
           <entry key="cmath" value="1" />
-          <entry key="cpp" value="154" />
+          <entry key="cpp" value="155" />
           <entry key="exe" value="1" />
           <entry key="h" value="178" />
           <entry key="iostream" value="1" />
@@ -72,14 +72,14 @@
           <entry key="CMakeCache.txt" value="2" />
           <entry key="CMakeLists.txt" value="14" />
           <entry key="Disassembly" value="17" />
-          <entry key="ObjectiveC" value="340" />
+          <entry key="ObjectiveC" value="341" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="13638" />
+          <entry key="cpp" value="13646" />
           <entry key="h" value="7582" />
           <entry key="txt" value="728" />
         </counts>
@@ -88,7 +88,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="728" />
-          <entry key="ObjectiveC" value="21220" />
+          <entry key="ObjectiveC" value="21228" />
         </counts>
       </usages-collector>
     </session>
@@ -98,11 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -110,26 +110,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SourceFiles/GrowingTree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="3264">
+              <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SourceFiles/RecursiveBacktrack.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SourceFiles/builder.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="267">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -206,8 +197,8 @@
         <option value="$PROJECT_DIR$/SourceFiles/PrimAlgorithm.cpp" />
         <option value="$PROJECT_DIR$/HeaderFiles/GrowingTree.h" />
         <option value="$PROJECT_DIR$/SourceFiles/GrowingTree.cpp" />
-        <option value="$PROJECT_DIR$/SourceFiles/builder.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/SourceFiles/builder.cpp" />
       </list>
     </option>
   </component>
@@ -219,10 +210,9 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="18" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="770" />
+    <option name="width" value="1158" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -340,11 +330,12 @@
       <workItem from="1538277671998" duration="4489000" />
       <workItem from="1538282216303" duration="8659000" />
       <workItem from="1538291634895" duration="6008000" />
+      <workItem from="1538300383824" duration="1000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190617000" />
+    <option name="totallyTimeSpent" value="191617000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -356,10 +347,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="15" width="782" height="831" extended-state="0" />
+    <frame x="616" y="0" width="926" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.18249258" side_tool="true" weight="0.20110957" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.81750745" visible="true" weight="0.4238227" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.81750745" visible="true" weight="0.0" />
       <window_info id="Structure" order="2" sideWeight="0.18249258" side_tool="true" weight="0.20110957" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49798658" weight="0.36950147" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067115" side_tool="true" weight="0.32991204" />
@@ -367,7 +359,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32937685" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49731544" weight="0.46666667" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49731544" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.42284867" />
       <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.49932885" weight="0.31085044" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -378,7 +370,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Messages" order="4" visible="true" weight="0.16620499" />
+      <window_info anchor="right" id="Messages" order="4" visible="true" weight="0.0" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" sideWeight="0.18249258" side_tool="true" weight="0.20110957" />
@@ -410,19 +402,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/SourceFiles/RecursiveBacktrack.cpp</url>
-          <line>37</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PrimAlgorithm.h" />
     <entry file="file://$PROJECT_DIR$/GrowingTree.h" />
     <entry file="file://$PROJECT_DIR$/GrowingTree.cpp" />
     <entry file="file://$PROJECT_DIR$/CommandLineOptions.h" />
@@ -602,9 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#118#136#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,34 +661,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SourceFiles/RecursiveBacktrack.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="-140">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CopyAssignmentTwo/builder.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SourceFiles/GrowingTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SourceFiles/builder.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="267">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SourceFiles/GrowingTree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
