@@ -122,6 +122,33 @@ CPPAssignmentTwo/fast:
 	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/build
 .PHONY : CPPAssignmentTwo/fast
 
+SourceFiles/BinaryGenerator.obj: SourceFiles/BinaryGenerator.cpp.obj
+
+.PHONY : SourceFiles/BinaryGenerator.obj
+
+# target to build an object file
+SourceFiles/BinaryGenerator.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.obj
+.PHONY : SourceFiles/BinaryGenerator.cpp.obj
+
+SourceFiles/BinaryGenerator.i: SourceFiles/BinaryGenerator.cpp.i
+
+.PHONY : SourceFiles/BinaryGenerator.i
+
+# target to preprocess a source file
+SourceFiles/BinaryGenerator.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.i
+.PHONY : SourceFiles/BinaryGenerator.cpp.i
+
+SourceFiles/BinaryGenerator.s: SourceFiles/BinaryGenerator.cpp.s
+
+.PHONY : SourceFiles/BinaryGenerator.s
+
+# target to generate assembly for a file
+SourceFiles/BinaryGenerator.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPAssignmentTwo.dir\build.make CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.s
+.PHONY : SourceFiles/BinaryGenerator.cpp.s
+
 SourceFiles/GrowingTree.obj: SourceFiles/GrowingTree.cpp.obj
 
 .PHONY : SourceFiles/GrowingTree.obj
@@ -266,6 +293,9 @@ help:
 	@echo ... CPPAssignmentTwo
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... SourceFiles/BinaryGenerator.obj
+	@echo ... SourceFiles/BinaryGenerator.i
+	@echo ... SourceFiles/BinaryGenerator.s
 	@echo ... SourceFiles/GrowingTree.obj
 	@echo ... SourceFiles/GrowingTree.i
 	@echo ... SourceFiles/GrowingTree.s

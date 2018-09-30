@@ -10,10 +10,10 @@
 
 class RecursiveBacktrack: public GrowingTree {
 private:
-    std::stack<coords> mapStack;
+    std::stack<coords>*  mapStack = new std::stack<coords>;
 public:
     // constructor
-    RecursiveBacktrack(int width, int height, std::string binFileName);
+    RecursiveBacktrack(const int* width, const int* height,std::vector<std::vector<disposition>>* board);
 
     // growing tree loop
     void buildLoop ()override;
@@ -29,6 +29,8 @@ public:
 
     // carve path
     void carvePath()override;
+
+    ~RecursiveBacktrack();
 };
 
 

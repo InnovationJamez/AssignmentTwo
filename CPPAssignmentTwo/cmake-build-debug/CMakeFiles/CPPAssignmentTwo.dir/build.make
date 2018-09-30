@@ -84,24 +84,10 @@ CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/GrowingTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/GrowingTree.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\GrowingTree.cpp -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\GrowingTree.cpp.s
 
-CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/flags.make
-CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/includes_CXX.rsp
-CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj: ../SourceFiles/PrimAlgorithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\PrimAlgorithm.cpp.obj -c C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\PrimAlgorithm.cpp
-
-CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\PrimAlgorithm.cpp > CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\PrimAlgorithm.cpp.i
-
-CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\PrimAlgorithm.cpp -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\PrimAlgorithm.cpp.s
-
 CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/flags.make
 CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/includes_CXX.rsp
 CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.obj: ../SourceFiles/RecursiveBacktrack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\RecursiveBacktrack.cpp.obj -c C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\RecursiveBacktrack.cpp
 
 CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.i: cmake_force
@@ -112,10 +98,38 @@ CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\RecursiveBacktrack.cpp -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\RecursiveBacktrack.cpp.s
 
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/flags.make
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/includes_CXX.rsp
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj: ../SourceFiles/PrimAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\PrimAlgorithm.cpp.obj -c C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\PrimAlgorithm.cpp
+
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\PrimAlgorithm.cpp > CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\PrimAlgorithm.cpp.i
+
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\PrimAlgorithm.cpp -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\PrimAlgorithm.cpp.s
+
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/flags.make
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/includes_CXX.rsp
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.obj: ../SourceFiles/BinaryGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\BinaryGenerator.cpp.obj -c C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\BinaryGenerator.cpp
+
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\BinaryGenerator.cpp > CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\BinaryGenerator.cpp.i
+
+CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\BinaryGenerator.cpp -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\BinaryGenerator.cpp.s
+
 CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/flags.make
 CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.obj: CMakeFiles/CPPAssignmentTwo.dir/includes_CXX.rsp
 CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.obj: ../SourceFiles/MazeLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPAssignmentTwo.dir\SourceFiles\MazeLoader.cpp.obj -c C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\SourceFiles\MazeLoader.cpp
 
 CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.i: cmake_force
@@ -130,8 +144,9 @@ CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.s: cmake_force
 CPPAssignmentTwo_OBJECTS = \
 "CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/builder.cpp.obj" \
 "CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/GrowingTree.cpp.obj" \
-"CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj" \
 "CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.obj" \
+"CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj" \
+"CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.obj" \
 "CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.obj"
 
 # External object files for target CPPAssignmentTwo
@@ -139,14 +154,15 @@ CPPAssignmentTwo_EXTERNAL_OBJECTS =
 
 CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/builder.cpp.obj
 CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/GrowingTree.cpp.obj
-CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj
 CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/RecursiveBacktrack.cpp.obj
+CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/PrimAlgorithm.cpp.obj
+CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/BinaryGenerator.cpp.obj
 CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/SourceFiles/MazeLoader.cpp.obj
 CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/build.make
 CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/linklibs.rsp
 CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/objects1.rsp
 CPPAssignmentTwo.exe: CMakeFiles/CPPAssignmentTwo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CPPAssignmentTwo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\lehoej\Desktop\AssignmentTwo\CPPAssignmentTwo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CPPAssignmentTwo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CPPAssignmentTwo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

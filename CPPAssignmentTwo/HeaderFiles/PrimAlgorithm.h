@@ -9,9 +9,10 @@
 
 class PrimAlgorithm: public GrowingTree {
 private:
+    std::vector<coords>* mapVector = new std::vector<coords>;
 public:
     // constructor
-    PrimAlgorithm(int width, int height, std::string binFileName);
+    PrimAlgorithm(const int* width, const int* height,std::vector<std::vector<disposition>>* board);
     // select newest piece from the map
     inline void selectPiece()override;
 
@@ -23,6 +24,9 @@ public:
 
     // growing tree loop
     void buildLoop()override;
+
+    // carve path
+    void carvePath()override;
 };
 
 

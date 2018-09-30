@@ -15,20 +15,15 @@ struct position{
 
 class MazeLoader {
 private:
-    int mazeWidth;
-    int mazeHeight;
-    int noOfWalls;
-    float bufferWidth;
-    float bufferHeight;
+    int mazeWidth, mazeHeight, noOfWalls, result, fileSize;
+    float bufferWidth, bufferHeight;
     position a, b;
-    std::string binFileName;
-    std::string SVGFileName;
-    int result = 0;
+    std::string binFileName, SVGFileName;
     std::vector<int>* connections= new std::vector<int>;
     std::fstream* binFile = new std::fstream;
     std::fstream* svgFile = new std::fstream;
 public:
-    MazeLoader(std::string bin, std::string svg);
+    MazeLoader(std::string* bin, std::string* svg);
     ~MazeLoader();
     void openBinFile();
     void readBinFile();

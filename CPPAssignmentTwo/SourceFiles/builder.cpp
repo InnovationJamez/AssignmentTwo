@@ -2,58 +2,52 @@
 #include "../HeaderFiles/RecursiveBacktrack.h"
 #include "../HeaderFiles/PrimAlgorithm.h"
 #include "../HeaderFiles/MazeLoader.h"
+#include "../HeaderFiles/BinaryGenerator.h"
 
-void BuildGrowingTree(const int* width, const int* height, std::string* binFileName);
+void BuildGrowingTree(const int* width, const int* height,std::vector<std::vector<disposition>>* board);
 
-void BuildRecursive(const int* width,const int* height, std::string* binFileName);
+void BuildRecursive(const int* width,const int* height,std::vector<std::vector<disposition>>* board);
 
-void BuildPrim(const int* width, const int* height, std::string* binFileName);
+void BuildPrim(const int* width, const int* height,std::vector<std::vector<disposition>>* board);
 
 void LoadMaze( std::string* binFileName, std::string* SVGFileName);
 
 
 int main() {
-    const int height = 3, width = 3;
+    const int height = 20, width = 20;
     std::string binFileName = "mazeFile.maze";
     std::string SVGFileName = "svgFile.svg";
+    auto * board = new std::vector<std::vector<disposition>>();
 
-	if(false)
-    {
-        BuildGrowingTree(&width, &height, &binFileName);
-    }
-	if (true)
-    {
-        BuildRecursive(&width, &height, &binFileName);
-    }
-	if (false)
-    {
-        BuildPrim(&width, &height, &binFileName);
-    }
-    if (true)
-    {
-        LoadMaze(&binFileName, &SVGFileName);
-    }
+//   BuildGrowingTree(&width, &height, board);
+//   BuildRecursive(&width, &height, board);
+   BuildPrim(&width, &height, board);
+
+    BinaryGenerator genObj(board, &width, &height, &binFileName);
+    genObj.binaryMain();
+
+    delete board;
+
+    LoadMaze(&binFileName, &SVGFileName);
     return 0;
 }
 
-void BuildGrowingTree(const int* width, const int* height, std::string* binFileName){
-    GrowingTree treeObj(*width,*height, *binFileName);
+void BuildGrowingTree(const int* width, const int* height,std::vector<std::vector<disposition>>* board){
+    GrowingTree treeObj(width,height,board);
     treeObj.addLocation();
     treeObj.buildLoop();
-    treeObj.binaryMain();
 }
 
-void BuildRecursive(const int* width,const int* height, std::string* binFileName){
-    RecursiveBacktrack recObj(*width,*height, *binFileName);
+void BuildRecursive(const int* width,const int* height,std::vector<std::vector<disposition>>* board){
+    RecursiveBacktrack recObj(width,height,board);
     recObj.buildLoop();
-	recObj.binaryMain();
 }
 
-void BuildPrim(const int* width, const int* height, std::string* binFileName){
-    PrimAlgorithm primObj(*width,*height, *binFileName);
+void BuildPrim(const int* width, const int* height,std::vector<std::vector<disposition>>* board){
+    PrimAlgorithm primObj(width,height,board);
     primObj.buildLoop();
 }
 
-void LoadMaze( std::string* binFileName, std::string* SVGFileName){
-    MazeLoader loaderObj(*binFileName, *SVGFileName);
+void LoadMaze(std::string* binFileName, std::string* SVGFileName){
+    MazeLoader loaderObj(binFileName, SVGFileName);
 }

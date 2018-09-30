@@ -5,8 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(CMAKE_BUILD_TYPE Debug)
 
-set(CMAKE_CXX_Flags "${CMAKE_CXX_FLAGS} -Wall -pedantic")
-
+set(CMAKE_CXX_FLGAS "${CMAKE_CXX_FLAGS} ${extra_flags} -Wall -pedantic -std=c++14")
 find_package(Boost)
 IF (Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIR})
@@ -18,12 +17,15 @@ add_executable(CPPAssignmentTwo
         HeaderFiles/GrowingTree.h
         SourceFiles/GrowingTree.cpp
 
-        HeaderFiles/PrimAlgorithm.h
-        SourceFiles/PrimAlgorithm.cpp
-
         HeaderFiles/RecursiveBacktrack.h
         SourceFiles/RecursiveBacktrack.cpp
 
-        SourceFiles/MazeLoader.cpp
+        HeaderFiles/PrimAlgorithm.h
+        SourceFiles/PrimAlgorithm.cpp
+
+        HeaderFiles/BinaryGenerator.h
+        SourceFiles/BinaryGenerator.cpp
+
         HeaderFiles/MazeLoader.h
+        SourceFiles/MazeLoader.cpp
         )

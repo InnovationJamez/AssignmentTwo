@@ -4,11 +4,9 @@
 
 #include "../HeaderFiles/MazeLoader.h"
 
-MazeLoader::MazeLoader(std::string bin, std::string svg)
-:binFileName(*&bin),SVGFileName(*&svg)
+MazeLoader::MazeLoader(std::string* bin, std::string* svg)
+:binFileName(*bin),SVGFileName(*svg)
 {
-    bufferWidth = 1/mazeWidth;
-    bufferHeight = 1/mazeHeight;
     openBinFile();
     readBinFile();
     closeBinFile();
@@ -29,9 +27,11 @@ void MazeLoader::openBinFile(){
 }
 void MazeLoader::readBinFile(){
     char ch;
+    binFile->seekg(0, std::ios::end);
+    fileSize = (int)binFile->tellg();
     binFile->seekg(0, std::ios::beg);
     std::string tempString;
-    while(binFile->tellg() < (int)binFile->tellg()){
+    while(binFile->tellg() < fileSize){
         binFile->get(ch);
         tempString += ch;
         if (tempString.size() == 33)
@@ -66,8 +66,9 @@ void MazeLoader::readConnections(){
     mazeWidth = (*connections)[0];
     mazeHeight = (*connections)[1];
     noOfWalls = (*connections)[2];
-
-    for(int i = 0; i < (*connections).size(); ++i){
+    bufferWidth = 1/(float)mazeWidth;
+    bufferHeight = 1/(float)mazeHeight;
+    for(int i = 3; i < (*connections).size(); ++i){
         if (i % 4 == 3)
         {
             a.xPos = (*connections)[i];
@@ -89,35 +90,21 @@ void MazeLoader::readConnections(){
 }
 
 void MazeLoader::drawConnection(){
-    if(a.xPos == b.xPos)
-    {
-        (*svgFile) << "<line stroke='white' stroke-width='";
-        (*svgFile) << bufferWidth;
-        (*svgFile) << "' x1='";
-        (*svgFile) << a.xPos*bufferWidth;
-        (*svgFile) << "' y1='";
-        (*svgFile) << a.yPos*bufferHeight;
-        (*svgFile) << "' x2='";
-        (*svgFile) << a.xPos*bufferWidth;
-        (*svgFile) << "' y2='";
-        (*svgFile) << a.yPos*bufferHeight - bufferHeight;
-        (*svgFile) << "'/>\n";
-    }else{
-        (*svgFile) << "<line stroke='white' stroke-width='";
-        (*svgFile) << bufferHeight;
-        (*svgFile) << "' x1='";
-        (*svgFile) << a.xPos*bufferWidth;
-        (*svgFile) << "' y1='";
-        (*svgFile) << a.yPos*bufferHeight;
-        (*svgFile) << "' x2='";
-        (*svgFile) << a.xPos*bufferWidth - bufferWidth;
-        (*svgFile) << "' y2='";
-        (*svgFile) << a.yPos*bufferHeight;
-        (*svgFile) << "'/>\n";
-    }
+    (*svgFile) << "<line stroke='white' stroke-width='";
+    (*svgFile) << 0.01;
+    (*svgFile) << "' x1='";
+    (*svgFile) << (1+a.xPos)*bufferWidth-(bufferWidth/2);
+    (*svgFile) << "' y1='";
+    (*svgFile) << (1+a.yPos)*bufferHeight-(bufferHeight/2);
+    (*svgFile) << "' x2='";
+    (*svgFile) << (1+b.xPos)*bufferWidth-(bufferWidth/2);
+    (*svgFile) << "' y2='";
+    (*svgFile) << (1+b.yPos)*bufferHeight-(bufferHeight/2);
+    (*svgFile) << "'/>\n";
 }
-
+// (num+1)*buffer-(buffer/2)
 void MazeLoader::binToInt(std::string binVal){
+    result = 0;
     for (int i = 0; i < (int)binVal.size(); ++i)
     {
         if (binVal[i] == '1')

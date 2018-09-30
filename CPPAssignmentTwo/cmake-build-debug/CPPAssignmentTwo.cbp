@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/BinaryGenerator.h">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/GrowingTree.h">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
@@ -94,6 +97,9 @@
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/RecursiveBacktrack.h">
+			<Option target="CPPAssignmentTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/BinaryGenerator.cpp">
 			<Option target="CPPAssignmentTwo"/>
 		</Unit>
 		<Unit filename="C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/GrowingTree.cpp">

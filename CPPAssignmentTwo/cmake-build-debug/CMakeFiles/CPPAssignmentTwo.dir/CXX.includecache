@@ -6,6 +6,34 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/BinaryGenerator.h
+vector
+-
+fstream
+-
+deque
+-
+memory
+-
+../HeaderFiles/GrowingTree.h
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/GrowingTree.h
+
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/GrowingTree.h
+iostream
+-
+random
+-
+map
+-
+fstream
+-
+vector
+-
+time.h
+-
+chrono
+-
+
 C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/MazeLoader.h
 iostream
 -
@@ -16,7 +44,25 @@ vector
 math.h
 -
 
-C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/MazeLoader.cpp
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/PrimAlgorithm.h
+../HeaderFiles/GrowingTree.h
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/GrowingTree.h
+
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/RecursiveBacktrack.h
+stack
+-
+GrowingTree.h
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/GrowingTree.h
+
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/SourceFiles/builder.cpp
+../HeaderFiles/GrowingTree.h
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/GrowingTree.h
+../HeaderFiles/RecursiveBacktrack.h
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/RecursiveBacktrack.h
+../HeaderFiles/PrimAlgorithm.h
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/PrimAlgorithm.h
 ../HeaderFiles/MazeLoader.h
 C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/MazeLoader.h
+../HeaderFiles/BinaryGenerator.h
+C:/Users/lehoej/Desktop/AssignmentTwo/CPPAssignmentTwo/HeaderFiles/BinaryGenerator.h
 

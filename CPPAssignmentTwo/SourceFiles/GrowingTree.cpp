@@ -5,8 +5,8 @@
 #include "../HeaderFiles/GrowingTree.h"
 
 // fill board generate & start point
-GrowingTree::GrowingTree(int x, int y, std::string binName)
-        :width(x), height(y), binFileName(binName){
+GrowingTree::GrowingTree(const int* x, const int* y,std::vector<std::vector<disposition>>* board)
+:width(*x), height(*y), board(board){
     this->index=0;
     fillBoard();
     setLocation();
@@ -15,7 +15,6 @@ GrowingTree::GrowingTree(int x, int y, std::string binName)
 
 // de-constructor deallocate the memory taken up by the object
 GrowingTree::~GrowingTree() {
-    delete board;
     delete mapTree;
 }
 
@@ -58,16 +57,16 @@ void GrowingTree::fillBoard(){
 
 // set the path of the of maze
 inline void GrowingTree::storeNorth(){
-    (*board)[this->position.xPos][this->position.yPos].binVal |= 10000;
+    (*board)[this->position.xPos][this->position.yPos].binVal |= 0b10000;
 }
 inline void GrowingTree::storeSouth(){
-    (*board)[this->position.xPos][this->position.yPos].binVal |= 01000;
+    (*board)[this->position.xPos][this->position.yPos].binVal |= 0b01000;
 }
 inline void GrowingTree::storeEast(){
-    (*board)[this->position.xPos][this->position.yPos].binVal |= 00100;
+    (*board)[this->position.xPos][this->position.yPos].binVal |= 0b00010;
 }
 inline void GrowingTree::storeWest(){
-    (*board)[this->position.xPos][this->position.yPos].binVal |= 00010;
+    (*board)[this->position.xPos][this->position.yPos].binVal |= 0b00100;
 }
 
 // move functions: move in specified direction
@@ -148,7 +147,7 @@ DIRECTION GrowingTree::neighborChk(){
 
 // set visited
 void GrowingTree::setVisited(){
-    (*board)[this->position.xPos][this->position.yPos].binVal |= 00001;
+    (*board)[this->position.xPos][this->position.yPos].binVal |= 0b00001;
 }
 
 // carve path
@@ -196,121 +195,4 @@ void GrowingTree::addLocation(){
 void GrowingTree::backTrack(){
     mapTree->erase(index);
     this->index--;
-}
-
-// binary file part
-// add a file to binFileObject
-void GrowingTree::openBinFile(){
-    (*binFile).open("MazeFiles/" + binFileName, std::ios::in | std::ios::out | std::ios::trunc);
-}
-
-// convert a base ten number to binary
-void GrowingTree::intToBin(){
-	binNum = "";
-    while (num > 0)
-    {
-        binNum = (num % 2 == 1 ? '1' : '0') + binNum;
-        num = num / 2;
-    }
-    while(binNum.length() < 32)
-    {
-        binNum = '0' + binNum;
-    }
-}
-
-// iterate through the vector<vector<cell>> and find where the walls are
-void GrowingTree::connectionChecker(){
-    edgeNo = 0;
-    for(int i = 0; i<width;i++){
-        for(int j = 0; j<(height-1); j++){
-            if(!((*board)[i][j].binVal & 0b01000)){
-                edgeNo++;
-                position = {i,j};
-                southWall();
-            }
-        }
-    }
-    for(int j = 0; j<height; j++){
-        for(int i = 0; i<(width-1);i++){
-            if(!((*board)[i][j].binVal & 0b0010)){
-                edgeNo++;
-                position = {i,j};
-                eastWall();
-            }
-        }
-    }
-
-}
-
-// store binary number in bin file
-void GrowingTree::addToBinFile(){
-	for (int counter = 0; counter <= (int)binNum.size(); counter++) {
-		binFile->put(binNum[counter]);
-	}
-}
-
-// add number of edges to third spot in wallList
-void GrowingTree::addEdgeNum(){
-    num = width;
-    intToBin();
-    addToBinFile();
-    num = height;
-    intToBin();
-    addToBinFile();
-    num = edgeNo;
-    intToBin();
-    addToBinFile();
-}
-
-// add values for edges
-void GrowingTree::addEdges(){
-    for (int i : (*numberList)) {
-        num = i;
-        intToBin();
-        addToBinFile();
-    }
-}
-
-// deallocate memory taken up by the binFile fstream object
-void GrowingTree::deleteBinFile(){
-    binFile->close();
-    delete binFile;
-    delete numberList;
-}
-
-// add numbers to wall container
-void GrowingTree::addToWallList(){
-    (*numberList).push_back(num);
-}
-
-// GrowingTree::south edge
-void GrowingTree::southWall(){
-    num = position.xPos;
-    addToWallList();
-    num = position.yPos;
-    addToWallList();
-    num = position.xPos;
-    addToWallList();
-    num = position.yPos+1;
-    addToWallList();
-}
-
-// east edge
-void GrowingTree::eastWall(){
-    num = position.xPos;
-    addToWallList();
-    num = position.yPos;
-    addToWallList();
-    num = position.xPos+1;
-    addToWallList();
-    num = position.yPos;
-    addToWallList();
-}
-
-void GrowingTree::binaryMain(){
-    openBinFile();
-    connectionChecker();
-    addEdgeNum();
-    addEdges();
-    deleteBinFile();
 }

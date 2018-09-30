@@ -5,28 +5,28 @@
 #include "../HeaderFiles/RecursiveBacktrack.h"
 
 //constructor
-RecursiveBacktrack::RecursiveBacktrack(int width, int height, std::string binFileName) : GrowingTree(width,height,binFileName){
+RecursiveBacktrack::RecursiveBacktrack(const int* width, const int* height,std::vector<std::vector<disposition>>* board) : GrowingTree(width,height,board){
     addLocation();
 }
 
 // select newest piece from the map
 void RecursiveBacktrack::selectPiece(){
-    this->position = mapStack.top();
+    this->position = mapStack->top();
 }
 
 // adding location to the top of the map
 void RecursiveBacktrack::addLocation(){
-    mapStack.push(this->position);
+    mapStack->push(this->position);
 }
 
 // pop one location off the top of the stack
 void RecursiveBacktrack::backTrack(){
-    mapStack.pop();
+    mapStack->pop();
 }
 
 // growing tree loop
 void RecursiveBacktrack::buildLoop(){
-    while(!mapStack.empty()){
+    while(!mapStack->empty()){
         selectPiece();
         carvePath();
     }
@@ -63,4 +63,8 @@ void RecursiveBacktrack::carvePath(){
             std::cout << "there has been an error" << std::endl;
             break;
     }
+}
+
+RecursiveBacktrack::~RecursiveBacktrack(){
+    delete mapStack;
 }
